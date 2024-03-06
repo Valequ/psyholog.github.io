@@ -1,1 +1,1 @@
-# psyholog.github.io
+# psyholog
