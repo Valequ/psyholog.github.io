@@ -1,0 +1,353 @@
+@media screen and (min-width:320px) and (max-width:767px) {
+    /*
+      ... правила для смартфонов ...
+      выводим карточки товаров по 1 в ряд
+    */
+    body{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    }
+    .header {
+        flex-direction: row;
+        width: 100%;
+        height: 60px;
+        top: 0;
+        left: 0;
+        justify-content: space-between;
+
+    }
+    .menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 220px;
+        column-gap: 20px;
+        /* display: none; */
+        display: block;
+        background: rgb(213, 229, 154);
+        visibility: hidden;
+        padding: 40px 10px 10px 10px;
+        transition: transform .5s, visibility .2s ;
+    }
+    .nav_link {
+        font-size: 17px;
+        padding: 5px 0;
+        display: block;
+        text-transform: lowercase;
+        color: rgb(122, 136, 73);
+    }
+    .vxodregistr {
+        font-size: 4px;
+        display: none;     
+    }
+    .button {
+        font-size: 8px;
+        margin: 0px;
+    }
+    .header_burger-btn{
+        display: block;
+        margin: 11px 11px
+    }
+    .logo {
+        width: 70px;
+    }
+    .left {
+        width: 10%;
+        height: 60px;
+        margin-left: 10px;
+        height: 60px;
+    }
+    .filtr {
+        position: static;
+        width: 100%;
+        margin-top: 0px;
+        border: 1px solid rgb(213, 229, 154);
+        border-radius: 10px;
+    }
+    .txt1 {     
+        font-size: 14px;
+    }
+    .price {        
+        height: 10px;
+        margin-left: 0px;       
+    }
+    .input {
+        width: 40px;
+        height: 15px;
+    }
+    .select1 {
+        width: 100px;
+        height: 20px;
+    }
+    .select1 {
+        width: 300px;
+        height: 25px;
+        background-color: rgb(213, 229, 154);
+        border-radius: 20px;
+    }
+    .main{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin: 180px 50px;
+        align-items: center;
+    }
+    .catalog {   
+        display: flex; 
+        row-gap: 50px;
+        margin-left: 0px; 
+        flex-direction: column;
+        align-items: center;
+    }
+    .card1 {
+        height: 400px;
+    }
+    .card_ava {
+        width: 100%;
+    }
+    .txt {
+        font-size: 17px;
+    }
+    .p {
+        margin: 10px 0px;
+        font-size: 15px;
+    }
+    .opisanie {
+        width: 80%;
+        margin-left: 16px;
+        line-height: 15px;
+    }
+    .baza {
+        padding: 4px;
+        margin: 0px;
+        font-size: 14px;
+    }
+    .button_card {
+        width: 150px;
+        /* padding: 3px; */
+        font-size: 10px;
+        margin: 7px 0px;
+        margin-bottom: 30px;
+    }
+    .vk {
+        width: 25px;
+    }
+    .text {
+        font-size: 13px;
+    }
+    .footer_center {
+        font-size: 13px;
+    }
+
+    /* медиа-запросы для карточки*/
+    .card_top1{
+        flex-direction: column;
+    }
+    .catalog_left {
+        width: 85%;
+        height: 330px;
+        row-gap: 0px;
+        margin: 0px 20px;
+        
+    }
+    .avatar2 {
+        height: 200px;
+        margin: 10px 14px;
+    }
+    .txt2 {
+        font-size: 20px;
+    }
+    .p2 {
+        font-size: 15px;
+        margin: 0;
+    }
+    .baza2 {
+        font-size: 11px;
+        border: 1px solid rgb(145, 161, 86);
+        border-radius: 20px;
+        padding: 3px;
+        width: 40px;
+        margin: 0;
+    }
+    .catalog_right {
+        width: 100%;
+    }
+    .h1 {
+        font-size: 20px;
+        margin: 20px 0px 10px 0px;
+    }
+    .li {
+        font-size: 17px;
+        margin: 10px 10px;
+    }
+    .p3 {
+        
+        font-size: 20px;
+    }
+    .p4 {  
+        font-size: 27px; 
+    }
+    .p5 {      
+        font-size: 16px;
+    }
+    .button_catalog_right {
+        font-size: 15px;
+        width: 70%;
+        height: 50px;
+        box-shadow: 1px 5px 10px black;
+    }
+    .catalog_right_bottom {
+        margin: 20px 8px 20px 5px;
+        height: 160px;
+    }
+    .h2 {
+        align-items: center;
+        color: rgb(108, 120, 65);
+        font-size: 24px;
+        margin: 0;
+    }
+    .otzv {
+        display: flex;
+        flex-direction: column;
+        column-gap: 30px;
+        flex-wrap: wrap;     
+        height: 730px;
+        align-items: center;
+    }
+    .ava_top {
+        height: 50px;
+        margin-left: -8px;
+        margin-top: -20px;
+    }
+    .ava_otzv {
+        width: 60px;
+        height: 60px;
+    }
+    .otzv_center_top p {
+        font-size: 17px;
+        margin: 0px 130px;
+    }
+    .otzv_center_bottom {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        line-height: 25px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .otzv_center {       
+        height: 210px;
+        margin: 0 3px;
+    }
+    .footer {
+        margin-top: 0px; 
+    }
+
+    /*о компании*/
+    .about_us_top p {
+        font-size: 24px;
+        text-align: center;
+    }
+    .about_us_center {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 0px 10px 0 10px;
+    }
+    .about_us_center1 {
+        row-gap: 10px;
+        width: 100%;
+        height: none;
+    }
+    .txt3 {
+        font-size: 18px;
+    }
+    .div {       
+        width: 90%;   
+    }
+    .div1 p {
+        font-size: 16px;
+        margin: 8px;
+    }
+    .div2 p {
+        font-size: 14px;
+        margin: 10px;
+    }
+    .kyp_kyrs {      
+        width: 250px;
+        height: 120px;
+        border-radius: 20px;
+    }
+    .kyp_kyrs_top p {
+        font-size: 14px;
+        margin: 0 7px;
+    }
+    .kyp_kyrs_button1 {
+        background-color: rgb(245, 215, 167);
+        border-radius: 30px;
+        color: rgb(100, 110, 62);
+        width: 150px;
+        height: 35px;
+        border: none;
+    }
+    .result {
+       
+        width: 100%;
+        margin: 40px 0px 0px 10px;
+    }
+    .oglavlenie {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+    .oglavlenie p {
+        font-size: 14px;
+    }
+    .box1 p {
+        color: rgb(213, 229, 154);
+        font-size: 14px;
+    }
+    .box2 p {
+        color: rgb(213, 229, 154);
+        font-size: 17px;
+    }
+    .box3 p {
+        color: rgb(213, 229, 154);
+        font-size: 15px;
+    }
+    .busines{
+        display: flex;
+        width: 100%;
+        height: 700px;
+    }
+
+    /*вход*/
+    .container4 h1{
+        font-size: 24px;
+        margin: 0;
+    }
+    .form {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .container4 {
+        
+        width: 80%;
+    }
+    input[type=text], input[type=password] {
+        width: 90%;
+        padding: 14px;
+        margin: 5px 0 10px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+        border-radius: 10px;
+    }
+}
